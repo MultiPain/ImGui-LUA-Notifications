@@ -1,6 +1,9 @@
 --!NOEXEC
 -- ref: https://github.com/patrickcjk/imgui-notify
--- * Added position lerping
+-- Added position lerping
+-- Added different anchor points (Top, Bottom, Left, Right, and their combinations)
+-- Added closeable notification that does not disappera
+
 assert(ImGui ~= nil, "ImGui not found!")
 if (lerp == nil) then 
 	function lerp(a, b, t)
