@@ -33,7 +33,13 @@ local FLAGS_NAMES = {
 }
 local positionFlag = 7
 
-local MAIN_WINDOW_FLAGS	= ImGui.WindowFlags_NoBringToFrontOnFocus | ImGui.WindowFlags_MenuBar | ImGui.WindowFlags_NoFocusOnAppearing | ImGui.WindowFlags_NoDecoration  | ImGui.WindowFlags_NoMove  | ImGui.WindowFlags_NoResize  | ImGui.WindowFlags_NoSavedSettings
+local MAIN_WINDOW_FLAGS	= 
+	ImGui.WindowFlags_NoBringToFrontOnFocus | 
+	ImGui.WindowFlags_NoFocusOnAppearing | 
+	ImGui.WindowFlags_NoDecoration | 
+	ImGui.WindowFlags_NoMove | 
+	ImGui.WindowFlags_NoResize | 
+	ImGui.WindowFlags_NoSavedSettings
 
 local ui = ImGui.new()
 IO = ui:getIO()	
