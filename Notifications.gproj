@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+ <properties atv_bundle="com.yourdomain.yourapp-atv" build_number="1" app_icon="" html5_host="" html5_fbinstant="0" osx_installerId="" win_org="GiderosMobile" logicalHeight="480" orientation="0" html5_crash="" osx_bundle="com.yourdomain." splashScaleMode="0" iosDevice="0" encryptAssets="0" autorotation="0" osx_domain="giderosmobile.com" macos_bundle="com.yourdomain.yourapp-macos" winrt_package="com.yourdomain.yourapp" html5_fbload="100" logicalWidth="320" disableSplash="0" app_name="" fps="60" windowHeight="0" retinaDisplay="0" exportMode="0" touchToMouse="1" version_code="1" splash_h_image="" mainluaOnly="0" winrt_org="GiderosMobile" html5_symbols="0" backgroundColor="#ffffff" html5_mem="256" architecture="0" osx_org="GiderosMobile" html5_pack="0" osx_category="5" encryptCode="0" windowWidth="0" mouseToTouch="1" tv_icon="" html5_wasm="0" splash_v_image="" html5_pwa="0" macos_category="5" ios_bundle="com.yourdomain.yourapp-ios" version="1.0" win_domain="giderosmobile.com" vsync="0" scaleMode="0" osx_signingId="" mouseTouchOrder="0">
+  <imageScales/>
+  <plugins/>
+  <exports/>
+ </properties>
+ <file name="assets/Notification.lua"/>
+ <file name="assets/main.lua"/>
+</project>
