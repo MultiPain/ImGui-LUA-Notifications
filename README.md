@@ -1,3 +1,5 @@
+# Preview
+![](https://github.com/MultiPain/ImGui-LUA-Notifications/blob/main/notification.gif)
 # API
 ## Constructor
 ```lua
