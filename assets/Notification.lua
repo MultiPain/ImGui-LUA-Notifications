@@ -21,8 +21,9 @@ Notifications.TRANSLATION = {
 		Info = "Info",
 	},
 }
-Notifications.DEFAULT_WAIT_TIME = 4 -- seconds
-Notifications.FADE_IN_OUT_TIME = 0.1 -- seconds
+-- Default values:
+Notifications.WAIT_TIME = 4			-- (in seconds)
+Notifications.FADE_IN_OUT_TIME = 0.1	-- (in seconds)
 Notifications.OPACITY = 1
 Notifications.PADDING_X = 20
 Notifications.PADDING_Y = 20
@@ -120,7 +121,7 @@ function Notification:init(windowType, title, content, waitTime, position)
 	self.windowType = windowType
 	self.title = title or ""
 	self.content = content or ""
-	self.waitTime = waitTime or Notifications.DEFAULT_WAIT_TIME
+	self.waitTime = waitTime or Notifications.WAIT_TIME
 	self.position = position or (Notifications.BOTTOM | Notifications.RIGHT)
 	self.creationTime = os.clock()
 	self.flags = Notifications.FLAGS
@@ -129,7 +130,7 @@ function Notification:init(windowType, title, content, waitTime, position)
 end
 
 function Notification:makeDisappearable()
-	self.waitTime = self.__prevWaitTime or Notifications.DEFAULT_WAIT_TIME
+	self.waitTime = self.__prevWaitTime or Notifications.WAIT_TIME
 	self.flags = self.flags | ImGui.WindowFlags_NoInputs
 		| ImGui.WindowFlags_NoDecoration
 		~ ImGui.WindowFlags_NoCollapse

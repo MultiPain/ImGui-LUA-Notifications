@@ -9,7 +9,7 @@ local currentWindowType = 1
 local title = ""
 local content = LOREM
 local contentDisabled = false
-local waitTime = Notifications.DEFAULT_WAIT_TIME
+local waitTime = Notifications.WAIT_TIME
 local FLAGS = {
 	Notifications.TOP,
 	Notifications.LEFT,
