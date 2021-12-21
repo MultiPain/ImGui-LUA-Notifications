@@ -118,7 +118,7 @@ local function getTitle(self, notification)
 end
 
 function Notification:init(windowType, title, content, waitTime, position)
-	self.windowType = windowType
+	self.windowType = windowType or Notifications.NONE
 	self.title = title or ""
 	self.content = content or ""
 	self.waitTime = waitTime or Notifications.WAIT_TIME
